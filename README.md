@@ -28,9 +28,11 @@ For a detailed explanation of the training process and code, refer to the **ant_
 ## Dependencies
 Ensure you have the following dependencies installed:
 
-  !pip install albumentations
-  !pip install ultralytics==8.0.20
-  !pip install --upgrade opencv-python matplotlib
+      !pip install albumentations
+      
+      !pip install ultralytics==8.0.20
+      
+      !pip install --upgrade opencv-python matplotlib
 
 ## Running the Application
 To run the application, execute the following command:
