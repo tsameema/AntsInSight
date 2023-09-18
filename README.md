@@ -37,7 +37,7 @@ Ensure you have the following dependencies installed:
 ## Running the Application
 To run the application, execute the following command:
 
-        streamlit run main.py
+              streamlit run main.py
   
 Feel free to explore the project and utilize it for ant bounding box and keypoints prediction using the YOLOv8 model.
 
