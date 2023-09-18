@@ -3,7 +3,7 @@
 ## Overview
 This project is centered around the task of predicting bounding boxes and keypoints of ants present in images using the YOLOv8 model. The pre-trained model has been fine-tuned on a custom dataset, with training conducted using two different batch sizes: 8 and 32. The model has undergone four training iterations, each comprising 500 epochs, with a default patience value to prevent overfitting.
 
-The dataset used for training can be found on Kaggle: Ant 2 Keypoints Dataset on Natural Substrate. However, this dataset had to be transformed into the format required by YOLOv8. The code to achieve this format conversion can be found in the **merge_bbox_keypoints.py** script.
+The dataset used for training can be found on Kaggle: [Ant 2 Keypoints Dataset on Natural Substrate](https://www.kaggle.com/datasets/elizamoscovskaya/ant-2-keypoints-dataset-on-natural-substrate). However, this dataset had to be transformed into the format required by YOLOv8. The code to achieve this format conversion can be found in the **merge_bbox_keypoints.py** script.
 
 ## Model and Deployment
 The YOLOv8 model is utilized for this project, with the model file named **'yolov8n-pose.pt'**.
@@ -25,6 +25,9 @@ To check the results of training and validation loss, refer to the trained_model
 
 For a detailed explanation of the training process and code, refer to the **ant_keypoint.ipynb** Jupyter Notebook.
 
+## Check Results
+The folder named **ants_prediction_results** contains the results obtained when model is deployed upon streamlit.
+
 ## Dependencies
 Ensure you have the following dependencies installed:
 
@@ -37,7 +40,7 @@ Ensure you have the following dependencies installed:
 ## Running the Application
 To run the application, execute the following command:
 
-              streamlit run main.py
+        streamlit run main.py
   
 Feel free to explore the project and utilize it for ant bounding box and keypoints prediction using the YOLOv8 model.
 
